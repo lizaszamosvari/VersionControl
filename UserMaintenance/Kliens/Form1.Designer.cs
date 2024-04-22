@@ -85,6 +85,7 @@
             button1.TabIndex = 3;
             button1.Text = "Mentés";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // label1
             // 
@@ -107,7 +108,7 @@
             label2.Size = new Size(27, 20);
             label2.TabIndex = 5;
             label2.Text = "db";
-            label2.Click += label2_Click;
+//            label2.Click += label2_Click;
             // 
             // label3
             // 
@@ -149,7 +150,7 @@
             pictureBox1.Size = new Size(345, 344);
             pictureBox1.TabIndex = 9;
             pictureBox1.TabStop = false;
-            pictureBox1.Click += pictureBox1_Click;
+//            pictureBox1.Click += pictureBox1_Click;
             // 
             // label5
             // 
