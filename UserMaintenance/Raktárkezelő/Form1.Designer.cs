@@ -148,6 +148,7 @@
             this.textBox1.Size = new System.Drawing.Size(172, 22);
             this.textBox1.TabIndex = 10;
             this.textBox1.Text = "A";
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // pictureBox1
             // 

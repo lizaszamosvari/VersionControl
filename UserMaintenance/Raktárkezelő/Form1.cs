@@ -121,13 +121,50 @@ namespace Raktárkezelő
             }
             else
             {
-                MessageBox.Show("Failed to create order: ");
+                MessageBox.Show("Failed to create order ");
             }
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                var response = proxy.ProductsFindAll();
+                var product = response.Content;
+
+                if (product != null)
+                {
+                    var sku = from x in product
+                              where x.Sku != null && x.Sku.Contains(textBox1.Text)
+                              select x;
+
+                    if (sku.Any())
+                    {
+                        listBox1.DataSource = sku.ToList();
+                        listBox1.DisplayMember = "Sku";
+                    }
+                    else
+                    {
+                        // Handle case where no matching SKU was found
+                        MessageBox.Show("No matching SKU found.");
+                    }
+                }
+                else
+                {
+                    // Handle case where product data is null
+                    MessageBox.Show("No product data available.");
+                }
+            }
+            catch (Exception ex)
+            {
+                // Handle any other exceptions
+                MessageBox.Show("An error occurred: " + ex.Message);
+            }
         }
     }
 }
