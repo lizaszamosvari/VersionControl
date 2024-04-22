@@ -75,8 +75,8 @@ namespace Raktárkezelő
         {
             int soldQuantity = int.Parse(textBox2.Text.ToString());
 
-            //Form2 form = new Form2();
-            //if (form.ShowDialog() != DialogResult.OK) { return; }
+            Form2 form = new Form2();
+            if (form.ShowDialog() != DialogResult.OK) { return; }
             var order = new OrderDTO();
 
             // add billing information
