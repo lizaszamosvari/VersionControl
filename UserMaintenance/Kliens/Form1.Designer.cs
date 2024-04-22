@@ -61,8 +61,9 @@
             textBox1.ForeColor = Color.White;
             textBox1.Location = new Point(57, 23);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(150, 27);
+            textBox1.Size = new Size(162, 27);
             textBox1.TabIndex = 1;
+            textBox1.TextChanged += textBox1_TextChanged;
             // 
             // Cancel
             // 
@@ -78,13 +79,13 @@
             // 
             // button1
             // 
-            button1.BackColor = Color.FromArgb(236, 221, 34);
+            button1.BackColor = Color.Yellow;
             button1.Location = new Point(631, 359);
             button1.Name = "button1";
             button1.Size = new Size(94, 29);
             button1.TabIndex = 3;
             button1.Text = "Mentés";
-            button1.UseVisualStyleBackColor = true;
+            button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
             // 
             // label1
@@ -108,7 +109,6 @@
             label2.Size = new Size(27, 20);
             label2.TabIndex = 5;
             label2.Text = "db";
-//            label2.Click += label2_Click;
             // 
             // label3
             // 
@@ -150,7 +150,6 @@
             pictureBox1.Size = new Size(345, 344);
             pictureBox1.TabIndex = 9;
             pictureBox1.TabStop = false;
-//            pictureBox1.Click += pictureBox1_Click;
             // 
             // label5
             // 
