@@ -74,6 +74,8 @@ namespace Raktárkezelő
         private void button2_Click(object sender, EventArgs e)
         {
             int soldQuantity = int.Parse(textBox2.Text.ToString());
+            string termekId = (((Product)listBox1.SelectedItem).Id).ToString();
+
 
             Form2 form = new Form2();
             if (form.ShowDialog() != DialogResult.OK) { return; }
@@ -98,7 +100,7 @@ namespace Raktárkezelő
             //order.Items = new List<LineItemDTO>();
             order.Items.Add(new LineItemDTO
             {
-                ProductId = "de9d6697-2990-454a-8fc5-0162ff7e2218",
+                ProductId = termekId,
                 Quantity = soldQuantity
             });
 
