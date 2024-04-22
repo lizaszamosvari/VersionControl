@@ -124,5 +124,10 @@ namespace Raktárkezelő
                 MessageBox.Show("Failed to create order: ");
             }
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
