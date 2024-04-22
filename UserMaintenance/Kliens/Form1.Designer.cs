@@ -124,7 +124,7 @@
             // 
             textBox2.BackColor = Color.Silver;
             textBox2.BorderStyle = BorderStyle.None;
-            textBox2.Location = new Point(607, 290);
+            textBox2.Location = new Point(605, 290);
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(51, 20);
             textBox2.TabIndex = 7;
@@ -144,7 +144,7 @@
             // 
             pictureBox1.BackColor = Color.FromArgb(36, 36, 35);
             pictureBox1.BorderStyle = BorderStyle.Fixed3D;
-            pictureBox1.Location = new Point(413, 67);
+            pictureBox1.Location = new Point(418, 67);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(345, 344);
             pictureBox1.TabIndex = 9;
