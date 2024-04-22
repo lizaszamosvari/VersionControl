@@ -73,58 +73,71 @@ namespace Raktárkezelő
 
         private void button2_Click(object sender, EventArgs e)
         {
-            int soldQuantity = int.Parse(textBox2.Text.ToString());
-            string termekId = (((Product)listBox1.SelectedItem).Id).ToString();
-            string skuText = (((Product)listBox1.SelectedItem).Sku).ToString();
+            
 
 
 
             Form2 form = new Form2();
             if (form.ShowDialog() != DialogResult.OK) { return; }
-            var order = new OrderDTO();
 
-            // add billing information
-            order.BillingAddress = new AddressDTO
+            try
             {
-                AddressType = AddressTypesDTO.Billing,
-                City = "West Palm Beach",
-                CountryBvin = "BF7389A2-9B21-4D33-B276-23C9C18EA0C0",
-                FirstName = "John",
-                LastName = "Dough",
-                Line1 = "319 N. Clematis Street",
-                Line2 = "Suite 500",
-                Phone = "561-228-5319",
-                PostalCode = "33401",
-                RegionBvin = "7EBE4F07-A844-47B8-BDA8-863DDDF5C778"
-            };
+                int soldQuantity = int.Parse(textBox2.Text.ToString());
+                string termekId = (((Product)listBox1.SelectedItem).Id).ToString();
+                string skuText = (((Product)listBox1.SelectedItem).Sku).ToString();
+                var order = new OrderDTO();
 
-            // add at least one line item
-            //order.Items = new List<LineItemDTO>();
-            order.Items.Add(new LineItemDTO
-            {
-                ProductId = termekId,
-                Quantity = soldQuantity
-            });
+                // add billing information
+                order.BillingAddress = new AddressDTO
+                {
+                    AddressType = AddressTypesDTO.Billing,
+                    City = "West Palm Beach",
+                    CountryBvin = "BF7389A2-9B21-4D33-B276-23C9C18EA0C0",
+                    FirstName = "John",
+                    LastName = "Dough",
+                    Line1 = "319 N. Clematis Street",
+                    Line2 = "Suite 500",
+                    Phone = "561-228-5319",
+                    PostalCode = "33401",
+                    RegionBvin = "7EBE4F07-A844-47B8-BDA8-863DDDF5C778"
+                };
 
-            // add the shipping address
-            order.ShippingAddress = new AddressDTO();
-            order.ShippingAddress = order.BillingAddress;
-            order.ShippingAddress.AddressType = AddressTypesDTO.Shipping;
+                // add at least one line item
+                //order.Items = new List<LineItemDTO>();
+                order.Items.Add(new LineItemDTO
+                {
+                    ProductId = termekId,
+                    Quantity = soldQuantity
+                });
 
-            // specify who is creating the order
-            order.UserEmail = "info@hotcakescommerce.com";
-            order.UserID = "1";
+                // add the shipping address
+                order.ShippingAddress = new AddressDTO();
+                order.ShippingAddress = order.BillingAddress;
+                order.ShippingAddress.AddressType = AddressTypesDTO.Shipping;
 
-            // call the API to create the order
-            var response2 = proxy.OrdersCreate(order);
-            if (response2.Errors.Count > 0)
-            {
-                MessageBox.Show("Order created successfully!");
+                // specify who is creating the order
+                order.UserEmail = "info@hotcakescommerce.com";
+                order.UserID = "1";
+
+                // call the API to create the order
+                var response2 = proxy.OrdersCreate(order);
+                if (response2.Errors.Count == 0)
+                {
+                    // Sikeres mentés esetén
+                    MessageBox.Show($"A(z) {skuText} SKU-jú termék készlete csökkent ennyivel: {soldQuantity}");
+                }
+                else
+                {
+                    // Sikertelen mentés esetén
+                    MessageBox.Show("Hiba a mentés során");
+                }
             }
-            else
+            catch (Exception ex)
             {
-                MessageBox.Show("Failed to create order ");
+                // Kezeletlen kivételek esetén
+                MessageBox.Show($"Hiba történt a művelet közben: {ex.Message}");
             }
+
         }
 
         private void Form1_Load(object sender, EventArgs e)
