@@ -161,9 +161,9 @@
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(36)))), ((int)(((byte)(35)))));
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox1.Location = new System.Drawing.Point(315, 71);
+            this.pictureBox1.Location = new System.Drawing.Point(315, 55);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(346, 324);
+            this.pictureBox1.Size = new System.Drawing.Size(346, 340);
             this.pictureBox1.TabIndex = 20;
             this.pictureBox1.TabStop = false;
             // 
