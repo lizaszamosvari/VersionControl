@@ -44,7 +44,7 @@ namespace Raktárkezelő
                 if (product != null)
                 {
                     var sku = from x in product
-                                  //where x.Sku != null && x.Sku.Contains(textBox1.Text)
+                              where x.Sku != null && x.Sku.Contains(textBox1.Text)
                               select x;
 
                     if (sku.Any())
