@@ -24,7 +24,7 @@ namespace Raktárkezelő
     public partial class Form1 : Form
     {
         private Api proxy;
-        List<string> skuk = new List<string> { "AAA001", "AAA114", "AAA153" };
+        //List<string> skuk = new List<string> { "AAA001", "AAA114", "AAA153" };
 
 
 
@@ -51,16 +51,17 @@ namespace Raktárkezelő
                               where x.Sku != null && x.Sku.Contains(textBox1.Text)
                               select x;
 
-                    //if (sku.Any())
-                    //{
-                        listBox1.DataSource = skuk;
+                    if (sku.Any())
+                    {
+                    //listBox1.DataSource = skuk;
+                        listBox1.DataSource = sku.ToList();
                         //listBox1.DisplayMember = "Sku";
-                    //}
-                    //else
-                    //{
-                    //    // Handle case where no matching SKU was found
-                    //    MessageBox.Show("No matching SKU found.");
-                    //}
+                    }
+                    else
+                    {
+                        // Handle case where no matching SKU was found
+                        MessageBox.Show("No matching SKU found.");
+                    }
                 }
                 else
                 {
@@ -188,8 +189,8 @@ namespace Raktárkezelő
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            //string skuText = (((Product)listBox1.SelectedItem).Sku).ToString();
-            string skuText = (listBox1.SelectedItem).ToString();
+            string skuText = (((Product)listBox1.SelectedItem).Sku).ToString();
+            //string skuText = (listBox1.SelectedItem).ToString();
             label7.Text = skuText;
         }
     }
