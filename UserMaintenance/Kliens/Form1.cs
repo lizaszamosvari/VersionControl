@@ -20,14 +20,39 @@ namespace Kliens
 
             proxy = new Api(url, key);
 
-            Hotcakes.CommerceDTO.v1.ApiResponse<List<ProductDTO>> response3 = proxy.ProductsFindAll();
-            var product = response3.Content;
-            var sku = from x in product
-                      where x.Sku.Contains(textBox1.Text)
-                      select x;
+            try
+            {
+                var response = proxy.ProductsFindAll();
+                var product = response.Content;
 
-            listBox1.DataSource = sku;
-            listBox1.DisplayMember = "Sku";
+                if (product != null)
+                {
+                    var sku = from x in product
+                                  //where x.Sku != null && x.Sku.Contains(textBox1.Text)
+                              select x;
+
+                    if (sku.Any())
+                    {
+                        listBox1.DataSource = sku.ToList();
+                        listBox1.DisplayMember = "Sku";
+                    }
+                    else
+                    {
+                        // Handle case where no matching SKU was found
+                        MessageBox.Show("No matching SKU found.");
+                    }
+                }
+                else
+                {
+                    // Handle case where product data is null
+                    MessageBox.Show("No product data available.");
+                }
+            }
+            catch (Exception ex)
+            {
+                // Handle any other exceptions
+                MessageBox.Show("An error occurred: " + ex.Message);
+            }
 
 
         }
