@@ -181,5 +181,11 @@ namespace Raktárkezelő
                 MessageBox.Show("An error occurred: " + ex.Message);
             }
         }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            string skuText = (((Product)listBox1.SelectedItem).Sku).ToString();
+            label7.Text = skuText;
+        }
     }
 }
