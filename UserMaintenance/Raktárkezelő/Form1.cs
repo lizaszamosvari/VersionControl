@@ -75,6 +75,8 @@ namespace Raktárkezelő
         {
             int soldQuantity = int.Parse(textBox2.Text.ToString());
             string termekId = (((Product)listBox1.SelectedItem).Id).ToString();
+            string skuText = (((Product)listBox1.SelectedItem).Sku).ToString();
+
 
 
             Form2 form = new Form2();
