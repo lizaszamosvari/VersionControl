@@ -18,6 +18,9 @@ using Hotcakes.CommerceDTO.v1.Orders;
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.CompilerServices;
+using Raktárkezelő.Controllers;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+using System.Net;
 
 namespace Raktárkezelő
 {
@@ -94,23 +97,12 @@ namespace Raktárkezelő
 
         private void button2_Click(object sender, EventArgs e)
         {
+            Adatbevitel();
+
+
             
 
-
-            Form2 form = new Form2();
-            if (form.ShowDialog() != DialogResult.OK) { return; }
-
-            try
-            {
-                int soldQuantity = int.Parse(textBox2.Text.ToString());
-                string skuText = (listBox1.SelectedItem).ToString();
-                MessageBox.Show($"A(z) {skuText} SKU-jú termék készlete csökkent ennyivel: {soldQuantity}");
-            }
-            catch (Exception ex)
-            {
-
-                MessageBox.Show($"Hiba történt a művelet közben: {ex.Message}");
-            }
+            
 
             //try
             //{
@@ -227,9 +219,39 @@ namespace Raktárkezelő
             label7.Text = skuText;
         }
 
+
+        private void Adatbevitel()
+        {
+            var soldQuantity = textBox2.Text;
+            var controller = new SoldQuantityController();
+            var modifyResponse = controller.ModifySoldQuantity(soldQuantity);
+
+            if (modifyResponse)
+            {
+                MessageBox.Show("Sikeres adatbevitel!");
+
+                Form2 form = new Form2();
+                if (form.ShowDialog() != DialogResult.OK) { return; }
+
+       
+                string skuText = (listBox1.SelectedItem).ToString();
+                MessageBox.Show($"A(z) {skuText} SKU-jú termék készlete csökkent ennyivel: {soldQuantity}");
+
+
+            }
+            else
+            {
+                MessageBox.Show("Nem sikerült az adatbevitel!");
+
+                return;
+            }
+
+        }
+
         private void pictureBox4_Click(object sender, EventArgs e)
         {
 
         }
+
     }
 }
