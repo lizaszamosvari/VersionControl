@@ -21,7 +21,7 @@ namespace Raktárkezelő.Controllers
 
                 if (!ValidateQuantity(quantity.ToString()))
                 {
-                    MessageBox.Show("Érvénytelen darabszám. Ne adj meg negatív, nullával kezdődő vagy nem egész értékeket");
+                    MessageBox.Show("Érvénytelen darabszám. Ne adj meg negatív, nullával kezdődő vagy nem egész értékeket, és ne hagyd üresen");
                     return false;
                 }
                 return true;
