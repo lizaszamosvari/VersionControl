@@ -55,7 +55,7 @@ namespace Raktárkezelő
                     {
                     //listBox1.DataSource = skuk;
                         listBox1.DataSource = sku.ToList();
-                        //listBox1.DisplayMember = "Sku";
+                        listBox1.DisplayMember = "Sku";
                     }
                     else
                     {
