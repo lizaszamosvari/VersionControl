@@ -77,7 +77,19 @@ namespace Raktárkezelő
         {
             //string skuText = (((Product)listBox1.SelectedItem).Sku).ToString();
             string skuText = (listBox1.SelectedItem).ToString();
+
             label7.Text = skuText;
+        }
+
+       
+
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Adatbevitel();
+
+            // RendelesHozzaadasa();
+
         }
 
         private void SkuListazas()
@@ -95,14 +107,14 @@ namespace Raktárkezelő
 
                     if (sku.Any())
                     {
-                        
+
                         listBox1.DataSource = sku.ToList();
                         listBox1.DisplayMember = "Sku";
                     }
                     else
                     {
                         // Handle case where no matching SKU was found
-                        MessageBox.Show("Nem található hozzá SKU.);
+                        MessageBox.Show("Nem található hozzá SKU.");
                     }
                 }
                 else
@@ -116,15 +128,6 @@ namespace Raktárkezelő
                 // Handle any other exceptions
                 MessageBox.Show("Egy hiba lépett fel: " + ex.Message);
             }
-        }
-
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            Adatbevitel();
-
-            // RendelesHozzaadasa();
-
         }
 
         private void RendelesHozzaadasa()
