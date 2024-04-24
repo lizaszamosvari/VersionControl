@@ -54,9 +54,30 @@ namespace Raktárkezelő
 
             proxy = new Api(url, key);
 
-            //SkuListázásBemutato();
+            SkuListázásBemutato();
 
-            SkuListazas();
+            //SkuListazas();
+        }
+
+        
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            SkuListázásBemutato();
+
+           // SkuListazas();
+        }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            //string skuText = (((Product)listBox1.SelectedItem).Sku).ToString();
+            string skuText = (listBox1.SelectedItem).ToString();
+            label7.Text = skuText;
         }
 
         private void SkuListazas()
@@ -74,26 +95,26 @@ namespace Raktárkezelő
 
                     if (sku.Any())
                     {
-                        //listBox1.DataSource = skuk;
+                        
                         listBox1.DataSource = sku.ToList();
                         listBox1.DisplayMember = "Sku";
                     }
                     else
                     {
                         // Handle case where no matching SKU was found
-                        MessageBox.Show("No matching SKU found.");
+                        MessageBox.Show("Nem található hozzá SKU.);
                     }
                 }
                 else
                 {
                     // Handle case where product data is null
-                    MessageBox.Show("No product data available.");
+                    MessageBox.Show("Nem található termék adat");
                 }
             }
             catch (Exception ex)
             {
                 // Handle any other exceptions
-                MessageBox.Show("An error occurred: " + ex.Message);
+                MessageBox.Show("Egy hiba lépett fel: " + ex.Message);
             }
         }
 
@@ -102,7 +123,7 @@ namespace Raktárkezelő
         {
             Adatbevitel();
 
-            RendelesHozzaadasa();
+            // RendelesHozzaadasa();
 
         }
 
@@ -130,8 +151,7 @@ namespace Raktárkezelő
                     RegionBvin = "7EBE4F07-A844-47B8-BDA8-863DDDF5C778"
                 };
 
-                // add at least one line item
-                //order.Items = new List<LineItemDTO>();
+  
                 order.Items.Add(new LineItemDTO
                 {
                     ProductId = termekId,
@@ -166,26 +186,6 @@ namespace Raktárkezelő
                 MessageBox.Show($"Hiba történt a művelet közben: {ex.Message}");
             }
         }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-            // SkuListázásBemutato();
-
-            SkuListazas();
-        }
-
-        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            //string skuText = (((Product)listBox1.SelectedItem).Sku).ToString();
-            string skuText = (listBox1.SelectedItem).ToString();
-            label7.Text = skuText;
-        }
-
 
         private void Adatbevitel()
         {
