@@ -37,22 +37,22 @@
       <HintPath>..\packages\DryIoc.dll.5.4.3\lib\net45\DryIoc.dll</HintPath>
     </Reference>
     <Reference Include="Hotcakes.Commerce">
-      <HintPath>..\..\..\..\..\..\Downloads\MyIntegration_03.02.00 (1)\References\Hotcakes.Commerce.dll</HintPath>
+      <HintPath>lib\Hotcakes.Commerce.dll</HintPath>
     </Reference>
     <Reference Include="Hotcakes.Commerce.Dnn">
-      <HintPath>..\..\..\..\..\..\Downloads\MyIntegration_03.02.00 (1)\References\Hotcakes.Commerce.Dnn.dll</HintPath>
+      <HintPath>lib\Hotcakes.Commerce.Dnn.dll</HintPath>
     </Reference>
     <Reference Include="Hotcakes.CommerceDTO">
-      <HintPath>..\..\..\..\..\..\Downloads\MyIntegration_03.02.00 (1)\References\Hotcakes.CommerceDTO.dll</HintPath>
+      <HintPath>lib\Hotcakes.CommerceDTO.dll</HintPath>
     </Reference>
     <Reference Include="Hotcakes.Modules">
-      <HintPath>..\..\..\..\..\..\Downloads\MyIntegration_03.02.00 (1)\References\Hotcakes.Modules.dll</HintPath>
+      <HintPath>lib\Hotcakes.Modules.dll</HintPath>
     </Reference>
     <Reference Include="Hotcakes.Payment">
-      <HintPath>..\..\..\..\..\..\Downloads\MyIntegration_03.02.00 (1)\References\Hotcakes.Payment.dll</HintPath>
+      <HintPath>lib\Hotcakes.Payment.dll</HintPath>
     </Reference>
     <Reference Include="Hotcakes.Web">
-      <HintPath>..\..\..\..\..\..\Downloads\MyIntegration_03.02.00 (1)\References\Hotcakes.Web.dll</HintPath>
+      <HintPath>lib\Hotcakes.Web.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -63,8 +63,23 @@
     <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
     </Reference>
+    <Reference Include="System.Web.Helpers">
+      <HintPath>lib\System.Web.Helpers.dll</HintPath>
+    </Reference>
     <Reference Include="System.Web.Mvc">
-      <HintPath>..\..\..\..\..\..\Downloads\MyIntegration_03.02.00 (1)\References\System.Web.Mvc.dll</HintPath>
+      <HintPath>lib\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor">
+      <HintPath>lib\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages">
+      <HintPath>lib\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment">
+      <HintPath>lib\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor">
+      <HintPath>lib\System.Web.WebPages.Razor.dll</HintPath>
     </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
