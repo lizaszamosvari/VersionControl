@@ -38,7 +38,7 @@ namespace Raktárkezelő
             InitializeComponent();
             Proxy();
 
-            //SkuListázásBemutato();
+            
 
             SkuListazas();
         }
@@ -61,7 +61,7 @@ namespace Raktárkezelő
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            //SkuListázásBemutato();
+            
 
             SkuListazas();
         }
@@ -77,6 +77,28 @@ namespace Raktárkezelő
             string skuText = sel_prod.Content.Sku.ToString();
 
             label7.Text = skuText;
+
+            //Kép beállítása
+            var imageName = sel_prod.Content.ImageFileMedium.ToString();
+
+
+            string imageDirectory = "kepek/";
+
+
+            string imagePath = System.IO.Path.Combine(imageDirectory, imageName);
+
+            pictureBox4.SizeMode = PictureBoxSizeMode.StretchImage;
+            try
+            {
+                Image image = Image.FromFile(imagePath);
+                pictureBox4.Image = image;
+            }
+            catch (Exception ex)
+            {
+                // MessageBox.Show("Hiba történt a kép betöltésekor: " + ex.Message);
+                Image image2 = Image.FromFile("kepek/alap.jpg");
+                pictureBox4.Image = image2;
+            }
 
 
         }

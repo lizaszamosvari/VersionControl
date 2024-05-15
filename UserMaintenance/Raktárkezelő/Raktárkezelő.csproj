@@ -140,5 +140,757 @@
   <ItemGroup>
     <None Include="Resources\Képernyőkép 2024-04-23 162409.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="kepek\21_SAVAGE_-_AMERICAN_DREAM_%282LP%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\21_SAVAGE_-_AMERICAN_DREAM_%282LP,_RED_COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\2_BROTHERS_ON_THE_4TH_FLOOR_-_BEST_REMIXES_%282LP,_180G,_REMASTERED,_SILVER_COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\A-HA_-_HUNTING_HIGH_&amp;_LOW_%281LP,_LIMITED_COLOURED_EDITION%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\ALAN_PARSONS_-_ON_AIR_%281LP,_180G,_LIMITED_RED_COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\alap.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\ALICE_COOPER_-_TRASH_%281LP,_180G,_LIMITED_COLOURED_VINYL,_35TH_ANNIVERSARY_EDITION%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\ALICE_IN_CHAINS_-_JAR_OF_LIES_%281LP,_30TH_ANNIVERSARY_EDITION,_REMASTERED%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\ALPHAVILLE_-_PROSTITUTE_%282LP,_180G,_2023_REMASTER,_LIMITED_DELUXE_EDITION%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\ALPHAVILLE_-_SALVATION_%282LP,_180G,_2023_REMASTER,_LIMITED_DELUXE_EDITION%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\ANDREA_BOCELLI_-_A_FAMILY_CHRISTMAS_%282LP,_DELUXE_EDITION%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\ARMIN_VAN_BUUREN_-_A_STATE_OF_TRANCE_YEAR_MIX_2023_%283LP,_180G,_LIMITED_NUMBERED_EDITION%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\AVICII_-_TRUE_%281LP,_10TH_ANNIVERSARY_BLUE_COLOURED_VINYL_EDITION%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\AVISHAI_COHEN_-_CONTINUO_%281LP%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\BABY_QUEEN_-_QUARTER_LIFE_CRISIS_%281LP,_LIMITED_COLOURED_VINYL_EDITION%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\BACKSTREET_BOYS_-_A_VERY_BACKSTREET_CHRISTMAS_%281LP,_DELUXE_EDITION%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\BEATLES,_THE_-_THE_BEATLES_1962_-_1966_%283LP,_2023_EDITION%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\BEATLES,_THE_-_THE_BEATLES_1967_-_1970_%283LP,_2023_EDITION%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\BEATLES,_THE_-_VINYL_BOX_%286LP,_2023_EDITION%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\BETH_HART_&amp;_JOE_BONAMASSA_-_LIVE_IN_AMSTERDAM_%283LP,_180G,_10TH_ANNIVERSARY_EDITION,_COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\BILL_EVANS_-_THE_BRILLIANT_%281LP,_180G,_LIMITED_COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\BLACK_SABBATH_-_REUNION_%283LP,_REMASTERED,_REISSUE%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\BLINK_182_-_ONE_MORE_TIME_%281LP%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\BLINK_182_-_ONE_MORE_TIME_%281LP,_LIMITED_CLEAR_COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\BOMBAY_BICYCLE_CLUB_-_MY_BIG_DAY_%281LP%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\BONANZA_BANZAI_-_JÓSLAT_%281LP,_WHITE_COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\BORIS_BLANK_-_RESONANCE_%282LP,_180G%29_utolsó_példányok!.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\BRUCE_DICKINSON_-_THE_MANDRAKE_PROJECT_%282LP,_180G%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\BRUCE_DICKINSON_-_THE_MANDRAKE_PROJECT_%282LP,_COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\BRUCE_SPRINGSTEEN_-_BEST_OF_BRUCE_SPRINGSTEEN_%282LP%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\BRUCE_SPRINGSTEEN_-_BEST_OF_BRUCE_SPRINGSTEEN_%282LP,_BLUE_COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\BRUCE_SPRINGSTEEN_-_BEST_OF_BRUCE_SPRINGSTEEN_%282LP,_YELLOW_COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\CANDY_DULFER_-_SAXUALITY_%281LP,_180G,_GOLD_COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\CAROLINE_POLACHEK_-_DESIRE,__I_WANT_TO_TURN_INTO_YOU_%281LP._COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\CARSON_COMA_-_CORDUROY_CLUB_%281LP%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\CARSON_COMA_-_IV_%281LP%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\CHICAGO_-_GREATEST_CHRISTMAS_HITS_%281LP,_GREEN_COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\CHICAGO_-_GREATEST_CHRISTMAS_HITS_%281LP,_RED_COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\CHICANE_-_BEHIND_THE_SUN_%282LP,_180G%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\COLDPLAY_-_A_HEAD_FULL_OF_DREAMS_%281LP,_LIMITED_COLOURED_VINYL_EDITION%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\CORRS,_THE_-_FORGIVEN,_NOT_FORGOTTEN_%281LP,_LIMITED_COLOURED_VINYL,_NAD_2023%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\CORRS,_THE_-_THE_BEST_OF_THE_CORRS_%282LP_EXPANDED_VERSION,_180G,_LIMITED_COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\CSEH_TAMÁS_-_CSEH-VÍG_ALBUM_%283LP,_180G,_LIMITÁLT_KIADÁS%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\CSEPREGI_ÉVA_-_JUBILEUM_+_%281LP,_LIMITED_RED_COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\CULT,_THE_-_ELECTRIC_%281LP,_OPAQUE_BLUE_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\CULT_-_LOVE_%281LP,_REISSUE%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\DAISY_JONES_&amp;_THE_SIX_-_AURORA_%282LP,_LIMITED_SUPER_DELUXE_MILKY_CLEAR_COLOURED_VINYL_EDITION%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\DAISY_JONES_&amp;_THE_SIX_-_AURORA_%282LP,_SUPER_DELUXE_COLOURED_VINYL_EDITION%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\DANNII_MINOGUE_-_GIRL_%281LP,_25TH_ANNIVERSARY_COLOURED_VINYL_EDITION%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\DEMI_LOVATO_-_REVAMPED_%281LP%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\DEODATO_-_PRELUDE_%281LP,_180G,_LIMITED_COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\DIRE_STRAITS_-_LIVE_1978_-_1992_%2812LP,_180G,_REMASTERED,_LIMITED_BOX_SET%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\DJ_BOBO_-_DANCE_WITH_ME_%281CD%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\DJ_BOBO_-_DANCE_WITH_ME_%281LP%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\DOG_EAT_DOG_-_ALL_BORO_KINGS_%281LP,_180G%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\DURAN_DURAN_-_DANSE_MACABRE_%282LP%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\DURAN_DURAN_-_DANSE_MACABRE_%282LP,_LIMITED_COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\EMMA_BUNTON_-_MY_HAPPY_PLACE_%281LP,_MAGENTA_COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\ENNIO_MORRICONE_-_AVANTGARDE_%281LP,_COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\ENNIO_MORRICONE_-_BOSSA_AND_GROOVE_%281LP,_COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\ENNIO_MORRICONE_-_FOR_A_FISTFUL_OF_WESTERNS_%281LP,_COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\ENNIO_MORRICONE_-_THE_LEGEND_OF_1900_%282LP,_180G,_25TH_ANNIVERSARY_COLOURED_VINYL_EDITION%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\ENNIO_MORRICONE_-_THRILLERS_AND_NOIR_%281LP,_COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\ERA_-_ERA_II._%281LP%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\EVANESCENCE_-_FALLEN_%282LP,_20TH_ANNIVERSARY_EDIITON,_REMASTERED,_180G%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\FILMZENE_-THE_PREACHER%27S_WIFE_%282LP,_REISSUE,_COLOURED_VINYL,_WHITNEY_HOUSTON%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\FILMZENE_-THE_PREACHER%27S_WIFE_%282LP,_REISSUE,_WHITNEY_HOUSTON%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\FILMZENE_-_BERLIN_%282LP,_180G,_LIMITED_COLOURED_VINYL_EDITION,_NETFLIX_SERIES%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\FILMZENE_-_CALL_ME_BY_YOUR_NAME_%282LP,_180G,_LIMITED_PINK_COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\FILMZENE_-_HOME_ALONE_CHRISTMAS_%281LP,_REISSUE%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\FILMZENE_-_INTERSTELLAR_%282LP,_180G,_COLOURED_VINYL,_LIMITED_EDITION%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\FILMZENE_-_MARIO_+_RABBIDS_SPARKS_OF_HOPE_%283LP,_USA%29_utolsó_példányok!.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\FILMZENE_-_TROLLS_BAND_TOGETHER_%281LP%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\FLEETWOOD_MAC_-_MYSTERY_TO_ME_%281LP,_LIMITED_OCEAN_BLUE_COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\FRANK_SINATRA_-_PLATINUM_%284LP_BOX,_180G%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\FRANZ_FERDINAND_-_FRANZ_FERDINAND_%281LP,_20TH_ANNIVERSARY_EDITION,_COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\FRAY,_THE_-_HOW_TO_SAVE_A_LIFE_%281LP,_YELLOW_COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\GHOST_-_MELIORA_%281LP,_180G,_COLOURED_VINYL,_LIMITED_EDITION%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\GIRLS_ALOUD_-_WHAT_WILL_THE_NEIGHBOURS_SAY_%281LP,_180G,_20TH_ANNIVERSARY_COLOURED_VINYL_EDITION%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\GIRL_IN_RED_-_I%27M_DOING_IT_AGAIN_BABY!_%281LP%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\GIRL_IN_RED_-_I%27M_DOING_IT_AGAIN_BABY!_%281LP,_LIMITED_RED_COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\GLORIA_ESTEFAN_-_HOLD_ME,_THRILL_ME,_KISS_ME_%281LP,_180G,_LIMITED_COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\GREEN_DAY_-_SAVIORS_%281LP%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\GREEN_DAY_-_SAVIORS_%281LP,_180G,_DELUXE_EDITION%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\GREEN_DAY_-_SAVIORS_%281LP,_LIMITED_COLOURED_VINYL_EDITION%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\GREGORY_PORTER_-_CHRISTMAS_WISH_%281LP%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\GROOVE_ARMADA_-_GA25_%282LP%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\HIM_-_RAZORBLADE_ROMANCE_%281LP%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\HOLLY_HUMBERSTONE_-_PAINT_MY_BEDROOM_BLACK_%281LP,_LIMITED_COLOURED_VINYL_EDIITION%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\HOLLY_JOHNSON_-_BLAST_%281LP,__LIMITED_RED_COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\HONEYBEAST_-_TELE_A_SZÍVEM_%281LP,_PINK_COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\HŐSÖK_-_NYELVTAN_%282LP,_20_ÉVES_JUBILEUMI_KIADÁS,_SPLATTERED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\ICE-T_-_POWER_%281LP,_YELLOW_COLOURED,_LIMITED_EDITION%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\JAMES_ARTHUR_-_BITTER_SWEET_LOVE_%281LP,_COLOURED_VINYL_EDITION%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\JAMES_BLUNT_-_WHO_WE_USED_TO_BE_%281LP,_LIMITED_COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\JEAN_MICHEL_JARRE_-_OXYMOREWORKS_%281LP,_180G%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\JENNIFER_LOPEZ_-_THIS_IS_ME..._NOW_%281LP,_COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\JETHRO_TULL_-_WARCHILD_II_%281LP,_STEVEN_WILSON_REMIX%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\JOE_BONAMASSA_-_BLACK_ROCK_%282LP,_180G,_LIMITED_GOLD_COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\JOE_BONAMASSA_-_BLUES_DELUXE_%282LP,_180G,_20TH_ANNIVERSARY_EDITION,_REMASTERED%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\JOE_BONAMASSA_-_BLUES_OF_DESPERATION_%282LP,_180G,_COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\JOE_BONAMASSA_-_DIFFERENT_SHADES_OF_BLUE_%282LP,_180G,_COLOURED_VINYL,_LIMITED_ANNIVERSARY_EDITION%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\JOHN_FARNHAM_-_WHISPERING_JACK_%281LP,_180G,_LIMITED_COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\JOJI_-_BALLADS_1._%281LP,_5TH_ANNIVERSARY_RED_COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\JOSH_GROBAN_-_CLOSER_%282LP,_20TH_ANNIVERSARY_COLOURED_VINYL_EDITION%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\JOURNEY_-_GREATEST_HITS_%282LP,_180G,_REISSUE%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\KAISER_CHIEFS_-_KAISER_CHIEF%27S_EASY_EIGHTH_ALBUM_%281LP%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\KAISER_CHIEFS_-_KAISER_CHIEF%27S_EASY_EIGHTH_ALBUM_%281LP,_LIMITED_COLOURED_VINYL_EDITION%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\KARL_BARTOS_-_THE_CABINET_OF_DR._CALIGARI_%282LP%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\KATIE_MELUA_-_CALL_OFF_THE_SEARCH_%281LP,_20TH_ANNIVERSARY_DELUXE_EDITION%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\KATY_PERRY_-_ONE_OF_THE_BOYS_%281LP,_REISSUE,_15TH_ANNIVERSARY_VINYL_EDITION%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\KATY_PERRY_-_PRISM_%282LP,_REISSUE,_10TH_ANNIVERSARY_VINYL_EDITON%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\KATY_PERRY_-_TEENAGE_DREAM_%282LP,_REISSUE,_13TH_ANNIVERSARY_VINYL_EDITION%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\KERRY_KING_-_FROM_HELL_I_RISE_%281LP,_BLACK_&amp;_DARK_RED_MARBLED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\KERRY_KING_-_FROM_HELL_I_RISE_%281LP,_DARK_RED_&amp;_ORANGE_MARBLED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\KISCSILLAG_-_ÖRÖKRE_SZÍVEMBE_ZÁRTALAK_%281LP%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\KISPÁL_ÉS_A_BORZ_-_BESZORULT_MONDAT_%281LP%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\KUNGS_-_THE_COMPLETE_COLLECTION_%281LP%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\KYLIE_MINOGUE_-_BODY_LANGUAGE_%281LP,_20TH_ANNIVERSARY_COLOURED_VINYL_EDITION%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\KYLIE_MINOGUE_-_KYLIE_%281LP,_35TH_ANNIVERSARY_LIMITED_NEON_PINK_EDITION%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\LAURA_BRANIGAN_-_BRANIGAN_%281LP,_180G,_LIMITED_COLOURED_VINYL_EDITION%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\LAURA_PAUSINI_-_ANIME_PARALLELE_%282LP%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\LED_ZEPPELIN_-_IV_%281LP,_180G,_LIMITED_CLEAR_COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\LENNY_KRAVITZ_-_BLUE_ELECTRIC_LIGHT_%282LP,_180G%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\LENNY_KRAVITZ_-_BLUE_ELECTRIC_LIGHT_%282LP,_180G,_LIMITED_COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\LENNY_KRAVITZ_-_BLUE_ELECTRIC_LIGHT_%282LP,_LIMITED_PICTURE_DISC_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\LEONA_LEWIS_-_SPIRIT_%282LP,_REISSUE,_GOLD_COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\LIL_UZI_VERT_-_PINK_TAPE_%282LP,_EXCLUSIVE_MARBLED_PINK_COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\LIL_UZI_VERT_-_PINK_TAPE_%282LP,_HOT_PINK_COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\LIL_YACHTY_-_LET%27S_START_HERE_%282LP%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\LINKIN_PARK_-_LOST_DEMOS_%281LP%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\LOST_FREQUENCIES_-_ALL_STAND_TOGETHER_%282LP,_180G,_LIMITED_COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\LP_-_LOST_ON_YOU_%282LP,_REISSUE,_COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\M83_-_FANTASY_%282LP%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\MAC_MILLER_-_FACES_%283LP,_LIMITED_WHITE_COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\MADISON_BEER_-_SILENCE_BETWEEN_SONGS_%281LP._COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\MADNESS_-_THEATRE_OF_THE_ABSURD_PRESENTS_C%27EST_LA_VIE_%282LP,_LIMITED_CLEAR_COLOURED_VINYL_EDITION%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\MADONNA_-_CELEBRATION_%284LP,_LIMITED_VINYL_EDITION%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\MADRUGADA_-_THE_INDUSTRIAL_SILENCE_TOUR_2019_%283LP,_180G,_LIMITED_EDITION%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\MARK_KNOPFLER_-_ONE_DEEP_RIVER_%282LP,_180G%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\MARK_KNOPFLER_-_ONE_DEEP_RIVER_%282LP,_LIMITED_CLEAR_COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\MECANO_-_ENTRE_EL_CIELO_Y_EL_SUELO_%281LP%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\MELANIE_MARTINEZ_-_CRY_BABY_%282LP,_EXCLUSIVE_LIMITED_PINK_COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\MELODY_GARDOT_-_WORRISOME_HEART%281LP,_COLOURED_VINYL,_15TH_ANNIVERSARY_LIMITED_EDITION%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\METALLICA_-_AND_JUSTICE_FOR_ALL_%282LP,_REMASTERED,_LIMITED_COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\METALLICA_-_DEATH_MAGNETIC_%282LP,_REMASTERED,_LIMITED_COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\METALLICA_-_GARAGE_INC._%283LP,_REMASTERED,_LIMITED_COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\METALLICA_-_HARDWIRED..._TO_SELF-DESTRUCT_%282LP,_REMASTERED,_LIMITED_COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\METALLICA_-_KILL_%27EM_ALL_%281LP,_REMASTERED,_LIMITED_COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\METALLICA_-_MASTER_OF_PUPPETS_%281LP,_REMASTERED,_LIMITED_COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\METALLICA_-_RIDE_THE_LIGHTNING_%281LP,_REMASTERED,_LIMITED_COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\METALLICA_-_ST._ANGER_%282LP,_REMASTERED,_LIMITED_COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\MIKA_-_QUE_TA_TETE_FLEURISSE_TOUJOURS_%281LP%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\MILKY_CHANCE_-_SADNECESSARY_%281LP%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\MILKY_CHANCE_-_SADNECESSARY_%281LP,_COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\MILKY_CHANCE_-_TRIP_TAPE_1_%281LP,_COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\MILKY_CHANCE_-_TRIP_TAPE_2_%281LP,_COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\MILLI_VANILLI_-_THE_BEST_OF_MILLI_VANILLI_%282LP,_35TH_ANNIVERSARY_EDITION%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\MILLI_VANILLI_-_THE_BEST_OF_MILLI_VANILLI_%282LP,_35TH_ANNIVERSARY_EDITION,_COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\MOLOKO_-_THINGS_TO_MAKE_AND_DO_%282LP,_180G,_LIMITED_COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\MORCHEEBA_-_THE_ANTIDOTE_%281LP,_180G,_LIMITED_COLOURED_VINYL_EDITION%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\MOTORHEAD_-_ANOTHER_PERFECT_DAY_%281LP,_40TH_ANNIVERSARY_COLOURED_VINYL_EDITION%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\MOTORHEAD_-_ANOTHER_PERFECT_DAY_%283LP,_40TH_ANNIVERSARY_REMASTERED_DELUXE_EDITION,_INCL._FULL_LIVE_SHOW%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\MÖTLEY_CRÜE_-_SHOUT_AT_THE_DEVIL_%281LP._40TH_ANNIVERSARY_LIMITED_RED_COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\NELLY_FURTADO_-_LOOSE_%282LP,_180G,_REISSUE%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\NEW_ORDER_-_SUBSTANCE_%2787_%282LP,_180G%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\NIRVANA_-_IN_UTERO_%288LP,_30TH_ANNIVERSARY_SUPER_DELUXE_EDITION%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\NOAH_KAHAN_-_STICK_SEASON_%282LP%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\NORAH_JONES_-_VISION_%281LP%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\OASIS_-_MASTERPLAN_%282LP,_REISSUE,_25TH_ANNIVERSARY_EDITION%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\OASIS_-_MASTERPLAN_%282LP,_REISSUE,_25TH_ANNIVERSARY_LIMITED_COLOURED_EDITION%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\OMEGA_-_ÉGI_JEL_%282LP%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\PARAMORE_-_PARAMORE_%282LP,_10TH_ANNIVERSARY_LIMITED_COLOURED_EDITION%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\PARTY_ANIMALS_-_GREATEST_HITS_%281LP,_LIMITED_PINK_COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\PEARL_JAM_-_VS._%281LP,_REISSUE,_30TH_ANNIVERSARY_CLEAR_VINYL_EDITION%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\PEARL_JAM_-_VS._%282LP,_180G,_45RPM,_REISSUE,_30TH_ANNIVERSARY_EDITION%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\PET_SHOP_BOYS_-_NONETHELESS_%281LP%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\PINK_FLOYD_-_THE_DARK_SIDE_OF_THE_MOON_%281LP,_180G,_50TH_ANNIVERSARY_EDITION,_2023_REMASTER%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\PINK_FLOYD_-_THE_DARK_SIDE_OF_THE_MOON_%281LP,_180G,_50TH_ANNIVERSARY_UV_VINYL_PICTURE_DISC_EDITION,_2023_REMASTER%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\POST_MALONE_-_THE_DIAMOND_COLLECTION_%282LP,_LIMITED_COLOURED_VINYL_EDITION%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\PRINCE_&amp;_THE_NEW_POWER_GENERATION_-_DIAMONDS_AND_PEARLS_%2812LP+_bluray,_180G,_REMASTERED,_LIMITED_DELUXE_EDITION_BOXSET%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\PRINCE_&amp;_THE_NEW_POWER_GENERATION_-_DIAMONDS_AND_PEARLS_%282LP,_180G,_REMASTERED%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\PRINCE_&amp;_THE_NEW_POWER_GENERATION_-_DIAMONDS_AND_PEARLS_%282LP,_180G,_REMASTERED,_LIMITED_COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\PRINCE_&amp;_THE_NEW_POWER_GENERATION_-_DIAMONDS_AND_PEARLS_%284LP,_180G,_REMASTERED,_LIMITED_EDITION%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\PÁL_UTCAI_FIÚK_-_A_BÁL_%281LP%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\RAPÜLŐK_-_RAPETA_%281LP,_LIMITED_WHITE_COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\ROBERT_MILES_-__DREAMLAND_%282LP,_REISSUE%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\ROD_STEWART_WITH_JOOLS_HOLLAND_-_SWING_FEVER_%281LP,_180G%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\ROD_STEWART_WITH_JOOLS_HOLLAND_-_SWING_FEVER_%281LP,_LIMITED_COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\RUN_DMC_-_RUN_DMC_%281LP,_COLOURED_VINYL,_ANNIVERSARY_EDITION%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\SALT_%27N%27_PEPA_-_VERY_NECESSARY_%282LP,_30TH_ANNIVERSARY_VINYL_EDITION%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\SHED_SEVEN_-_A_MATTER_OF_TIME_%281LP,_COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\SHOLA_AMA_-_SO_MUCH_LOVE_%281LP,_LIMITED_COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\SIA_-_RESONABLE_WOMAN_%281LP,_LIMITED_BABY_BLUE_COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\SIA_-_RESONABLE_WOMAN_%281LP,_LIMITED_BABY_PINK_COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\SILK_SONIC_-_AN_EVENING_WITH_SILK_SONIC_%281LP,_LIMITED_COLOURED_VINYL_EDITION%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\SIMPLY_RED_-_BLUE_%281LP,_BLUE_COLOURED_VINYL,_NAD2023%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\SPRINTS_-_LETTER_TO_SELF_%281LP,_COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\STEVEN_WILSON_-_THE_HARMONY_CODEX_%282LP%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\STREETS_-_THE_DARKER_THE_SHADOW_THE_BRIGHTER_THE_LIGHT_%281LP,_180G%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\STREETS_-_THE_DARKER_THE_SHADOW_THE_BRIGHTER_THE_LIGHT_%281LP,_LIMITED_COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\SUFJAN_STEVENS_-_JAVELIN_%281LP,_LIMITED_LEMONADE_COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\SZILÁRD_-_NA,_EZ_AZ!_%281LP,_CLEAR_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\TAKE_THAT_-_THIS_LIFE_%281LP%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\TATE_MCRAE_-_THINK_LATER_%281LP%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\THE_CARS_-_GREATEST_HITS_%281LP,_LIMITED_RED_COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\THE_NATIONAL_-_LAUGH_TRACK_%282LP,_PINK_COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\THE_NEIGHBOURHOOD_-_HARD_TO_IMAGINE_THE_NEIGHBOURHOOD_EVER_CHANGING_%283LP,_180G,_45RPM%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\THE_SMILE_-_WALL_OF_EYES_%281LP%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\THE_SMILE_-_WALL_OF_EYES_%281LP,_LIMITED_COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\THIRTY_SECONDS_TO_MARS_-_IT%27S_THE_END_OF_THE_WORLD,_BUT_IT%27S_A_BEAUTIFUL_DAY_%281LP,_LIMITED_COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\TINA_TURNER_-_QUEEN_OF_ROCK_%27N%27_ROLL_%281LP%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\TINA_TURNER_-_QUEEN_OF_ROCK_%27N%27_ROLL_%281LP,_LIMITED_COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\TINA_TURNER_-_QUEEN_OF_ROCK_%27N%27_ROLL_%285LP,_180G,_LIMITED_VINYL_EDITION%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\TINA_TURNER_-_SIMPLY_THE_BEST_%282LP,_LIMITED_BLUE_COLOURED_VINYL_EDITION%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\TOM_KEIFER_-_RISE_%281LP,_COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\TOVE_LO_-_DIRT_FEMME_%281LP%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\TRAVIS_SCOTT_-_UTOPIA_%282LP%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\TRAVIS_SCOTT_-_UTOPIA_%282LP,_LIMITED_OPAQUE_RED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\TROYE_SIVAN_-_OMETHING_TO_GIVE_EACH_OTHER_%281LP%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\TWENTY_4_SEVEN_-_I_WANNA_SHOW_YOU_%281LP,_180G,_COLOURED_VINYL,_LIMITED_ANNIVERSARY_EDITION%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\TYLA_-_TYLA_%281LP,_LIMITED_TURQUOISE_COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\TYLA_-_TYLA_%281LP,_ORANGE_COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\TYLER_THE_CREATOR_-_WOLF_%282LP,_HOT_PINK_COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\U2_-_ZOOROPA_%282LP,_30TH_ANNIVERSARY_YELLOW_COLOURED_VINYL_EDITION%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\URIAH_HEEP_-_THE_DEFINITIVE_ANTHOLOGY_1970_-_1990_%282LP,_COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\VAYA_CON_DIOS_-_SHADES_OF_JOY_%281LP,_COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\VÁLOGATÁS_-_70%27S_MOVIE_HITS_COLLECTED_%282LP,_180G,_LIMITED_COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\VÁLOGATÁS_-_ARMADA_MUSIC_TRANCE_LEGACY_II._%282LP%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\VÁLOGATÁS_-_CHRISTMAS_COLLECTED_%282LP,_180G,_LIMITED_COLOURED_VINYL_EDITION%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\VÁLOGATÁS_-_GIRLZ_%27N_BOYZ_COLLECTED_%282LP,_180G,_LIMITED_COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\VÁLOGATÁS_-_GREATEST_CHRISTMAS_SONGS_OF_THE_21ST_CENTURY_%282LP,_180G,_LIMITED_RED_AND_WHITE_COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\VÁLOGATÁS_-_NEKÜNK_ÍRTÁK_A_DALT_%282LP,_180G%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\VÁLOGATÁS_-_STARS_OF_CHRISTMAS_%281LP,_180G,_GOLD_COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\VÁLOGATÁS_-_STAX_CHRISTMAS_%281LP,_REISSUE,_REMASTERED%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\VÁLOGATÁS_-_THE_BEST_OF_HAPPY_HARDCORE_%281LP,_LIMITED_YELLOW_COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\VÁLOGATÁS_-_THE_ITALO_DISCO_COLLECTION_%284LP_BOX_SET%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\VÁLOGATÁS_-__BEST_OF_90%27S_DANCE_SLÁGERALBUM_VOL.1._%281LP,_LIMITED_EDITION,_MAGYAR%29_utolsó_példányok!!!.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\WALTER_TROUT_-_BROKEN_%282LP,_COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\WHAM_-_FANTASTIC_%281LP,_LIMITED_COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\WHAM_-_FANTASTIC_%281LP,_LIMITED_VINYL_EDITION%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\WHAM_-_MAKE_IT_BIG_%281LP,_LIMITED_COLOURED_VINYL_EDITION%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\WHAM_-_MAKE_IT_BIG_%281LP,_LIMITED_EDITION%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\WHITNEY_HOUSTON_-_I%27M_YOUR_BABY_TONIGHT_%281LP,_REISSUE%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\WHITNEY_HOUSTON_-_I%27M_YOUR_BABY_TONIGHT_%281LP,_REISSUE,_COLOURED_VINYL_EDITION%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\WHITNEY_HOUSTON_-_MY_LOVE_IS_YOUR_LOVE_%282LP,_REISSUE%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\WHITNEY_HOUSTON_-_MY_LOVE_IS_YOUR_LOVE_%282LP,_REISSUE,_COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\WITHIN_TEMPTATION_-_BLEED_OUT_%281LP,_180G,_RED_&amp;_BLACK_COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\WITHIN_TEMPTATION_-_BLEED_OUT_%281LP,_180G,_SMOKE_COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kepek\ZARA_LARSSON_-_VENUS_%281LP,_COLOURED_VINYL%29.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
