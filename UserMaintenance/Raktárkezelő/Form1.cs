@@ -28,16 +28,7 @@ namespace Raktárkezelő
     {
         private Api proxy;
 
-        List<string> skuk = new List<string> { "AAA001", "AAA114", "AAA115", "AAA116", "AAA117", "AAA118", "AAA119", 
-            "AAA120", "AAA121", "AAA122", "AAA123", "AAA124", "AAA125", "AAA126", "AAA127", "AAA128", "AAA129", "AAA130",
-            "AAA131", "AAA132", "AAA133", "AAA134", "AAA135", "AAA136", "AAA137", "AAA138", "AAA139", "AAA140", "AAA141", 
-            "AAA142", "AAA143", "AAA144", "AAA145", "AAA146", "AAA147", "AAA148", "AAA149", "AAA150", "AAA151", "AAA152", 
-            "AAA153", "AAA154", "AAA155", "AAA156", "AAA157", "AAA158", "AAA159", "AAA160", "AAA161", "AAA162", "AAA163", 
-            "AAA164", "AAA165", "AAA166", "AAA167", "AAA168", "AAA169", "AAA170", "AAA171", "AAA172", "AAA173", "AAA174", 
-            "AAA175", "AAA176", "AAA177", "AAA178", "AAA179", "AAA180", "AAA181", "AAA182", "AAA183", "AAA184", "AAA185", 
-            "AAA186", "AAA187", "AAA188", "AAA189", "AAA190", "AAA191", "AAA192", "AAA193", "AAA194", "AAA195", "AAA196", 
-            "AAA197", "AAA198", "AAA199", "AAA200", "AAA201", "AAA202", "AAA203", "AAA204", "AAA205", "AAA206", "AAA207",
-            "AAA208", "AAA209", "AAA210" };
+
 
 
 
@@ -45,7 +36,15 @@ namespace Raktárkezelő
         public Form1()
         {
             InitializeComponent();
+            Proxy();
 
+            //SkuListázásBemutato();
+
+            SkuListazas();
+        }
+
+        private void Proxy()
+        {
             var url = string.Empty;
             var key = string.Empty;
 
@@ -53,13 +52,7 @@ namespace Raktárkezelő
             if (key == string.Empty) key = "1-c5ef7982-7d10-4fd6-a506-27e3b01ddfb2";
 
             proxy = new Api(url, key);
-
-            SkuListázásBemutato();
-
-            //SkuListazas();
         }
-
-        
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -68,27 +61,34 @@ namespace Raktárkezelő
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            SkuListázásBemutato();
+            //SkuListázásBemutato();
 
-           // SkuListazas();
+            SkuListazas();
         }
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            //string skuText = (((Product)listBox1.SelectedItem).Sku).ToString();
-            string skuText = (listBox1.SelectedItem).ToString();
+            Proxy();
+            var sel_prod = proxy.ProductsFindBySku(listBox1.SelectedItem.ToString());
+
+            var inventory = proxy.ProductInventoryFindForProduct(sel_prod.Content.Bvin).Content[0];
+            label2.Text = inventory.QuantityOnHand.ToString();
+
+            string skuText = sel_prod.Content.Sku.ToString();
 
             label7.Text = skuText;
+
+
         }
 
-       
+
 
 
         private void button2_Click(object sender, EventArgs e)
         {
             Adatbevitel();
 
-            // RendelesHozzaadasa();
+            RendelesHozzaadasa();
 
         }
 
@@ -96,18 +96,19 @@ namespace Raktárkezelő
         {
             try
             {
+
                 var response = proxy.ProductsFindAll();
+
                 var product = response.Content;
 
                 if (product != null)
                 {
                     var sku = from x in product
                               where x.Sku != null && x.Sku.Contains(textBox1.Text)
-                              select x;
+                              select x.Sku;
 
                     if (sku.Any())
                     {
-
                         listBox1.DataSource = sku.ToList();
                         listBox1.DisplayMember = "Sku";
                     }
@@ -132,55 +133,34 @@ namespace Raktárkezelő
 
         private void RendelesHozzaadasa()
         {
+
+
+
             try
             {
+                Proxy();
+
                 int soldQuantity = int.Parse(textBox2.Text.ToString());
-                string termekId = (((Product)listBox1.SelectedItem).Id).ToString();
-                string skuText = (((Product)listBox1.SelectedItem).Sku).ToString();
-                var order = new OrderDTO();
+                var sel_prod = proxy.ProductsFindBySku(listBox1.SelectedItem.ToString());
 
-                // add billing information
-                order.BillingAddress = new AddressDTO
+                var inventory = proxy.ProductInventoryFindForProduct(sel_prod.Content.Bvin).Content[0];
+
+                label2.Text = inventory.QuantityOnHand.ToString();
+                inventory.QuantityOnHand -= soldQuantity;
+                var response = proxy.ProductInventoryUpdate(inventory);
+
+                if (response.Errors.Count == 0)
                 {
-                    AddressType = AddressTypesDTO.Billing,
-                    City = "West Palm Beach",
-                    CountryBvin = "BF7389A2-9B21-4D33-B276-23C9C18EA0C0",
-                    FirstName = "John",
-                    LastName = "Dough",
-                    Line1 = "319 N. Clematis Street",
-                    Line2 = "Suite 500",
-                    Phone = "561-228-5319",
-                    PostalCode = "33401",
-                    RegionBvin = "7EBE4F07-A844-47B8-BDA8-863DDDF5C778"
-                };
-
-  
-                order.Items.Add(new LineItemDTO
-                {
-                    ProductId = termekId,
-                    Quantity = soldQuantity
-                });
-
-                // add the shipping address
-                order.ShippingAddress = new AddressDTO();
-                order.ShippingAddress = order.BillingAddress;
-                order.ShippingAddress.AddressType = AddressTypesDTO.Shipping;
-
-                // specify who is creating the order
-                order.UserEmail = "info@hotcakescommerce.com";
-                order.UserID = "1";
-
-                // call the API to create the order
-                var response2 = proxy.OrdersCreate(order);
-                if (response2.Errors.Count == 0)
-                {
-                    // Sikeres mentés esetén
+                    string skuText = (listBox1.SelectedItem).ToString();
                     MessageBox.Show($"A(z) {skuText} SKU-jú termék készlete csökkent ennyivel: {soldQuantity}");
+
+                    label2.Text = inventory.QuantityOnHand.ToString();
+
                 }
                 else
                 {
-                    // Sikertelen mentés esetén
-                    MessageBox.Show("Hiba a mentés során");
+                    MessageBox.Show("A mentés sikertelen!");
+                    return;
                 }
             }
             catch (Exception ex)
@@ -193,7 +173,7 @@ namespace Raktárkezelő
         private void Adatbevitel()
         {
             var soldQuantity = textBox2.Text;
-            var controller = new SoldQuantityController();
+            var controller = new Controllers.SoldQuantityController();
             var modifyResponse = controller.ModifySoldQuantity(soldQuantity);
 
             if (modifyResponse)
@@ -203,9 +183,9 @@ namespace Raktárkezelő
                 Form2 form = new Form2();
                 if (form.ShowDialog() != DialogResult.OK) { return; }
 
-       
-                string skuText = (listBox1.SelectedItem).ToString();
-                MessageBox.Show($"A(z) {skuText} SKU-jú termék készlete csökkent ennyivel: {soldQuantity}");
+
+
+
 
 
             }
@@ -220,19 +200,10 @@ namespace Raktárkezelő
 
 
 
-        private void SkuListázásBemutato()
-        {
-            var skuk2 = from x in skuk
-                        where x.Contains(textBox1.Text)
-                        select x;
 
-            listBox1.DataSource = skuk2.ToList();
-        }
 
-        private void pictureBox4_Click(object sender, EventArgs e)
-        {
 
-        }
+
 
     }
 }
